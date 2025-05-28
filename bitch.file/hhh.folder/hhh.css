@@ -1,0 +1,54 @@
+/* Syntax Highlighting for Code Blocks */
+code {
+    display: block;
+    padding: 16px;
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    border-radius: 8px;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    overflow-x: auto;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+code .keyword {
+    color: #66d9ef;
+    font-weight: bold;
+}
+
+code .string {
+    color: #a6e22e;
+}
+
+code .comment {
+    color: #75715e;
+    font-style: italic;
+}
+
+code .function {
+    color: #fd971f;
+}
+
+code .number {
+    color: #ae81ff;
+}
+
+code .operator {
+    color: #f92672;
+}
+
+code .variable {
+    color: #f8f8f2;
+}
+
+code .class-name {
+    background-color: #000000;
+    color: #5dee5d;
+    font-weight: bold;
+}
+body {
+    background-color: black;
+    color: greenyellow;
+    font-size: 25px;
+}

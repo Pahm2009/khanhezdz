@@ -1,0 +1,23 @@
+video{
+    height: 600px;
+    width: 400px;
+}
+body{
+    background-color: rgb(10, 10, 16);
+    color: greenyellow;
+    size: 50px;
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+}
+div{
+    font-size: 50px;
+    text-align: center;
+}
+table{
+    width: 100%;
+    text-align: center;
+    height: 300px;
+    font-size: 50px;
+}

@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: greenyellow;
+    font-family: Arial, sans-serif; /* Sửa font-family */
+    font-size: 25px; /* Giữ font-size */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow:
+        0 0 10px cyan,
+        0 0 20px cyan,
+        0 0 40px cyan,
+        0 0 80px cyan,
+        0 0 160px cyan;
+}
+
+a {
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a:hover {
+    color: cyan; /* Thêm hiệu ứng hover cho liên kết */
+}
+
+table {
+    font-size: 25px;
+    width: 100%;
+    height: 200px;
+    border-collapse: collapse; /* Thêm để gộp đường viền */
+}
+
+th, td {
+    border: 1px solid white; /* Thêm đường viền cho bảng */
+    padding: 10px;
+    text-align: center;
+}

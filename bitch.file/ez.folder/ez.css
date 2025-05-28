@@ -1,0 +1,39 @@
+table{
+
+    width: 100%;
+    height: 200px;
+}
+table, th, td{
+    border: 1px solid rgb(37, 32, 39);
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: #5506aa;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: #030303;
+    background: url('example.jpg') center;
+    background-size: cover;
+    background: 
+        url('/2ae3c278adf3c56aae7cabc340370a18.jpg') center;
+        background-size: cover;
+        background-clip: text;
+    color: transparent;
+    animation: animate 30s linear infinite;
+}
+
+@keyframes animate {
+    to{
+        background-position-x: -200%; 
+    }
+}
+body{    
+    background-color: black;
+    color: yellowgreen;
+    text-align: center;
+    font-size: 30px;
+}
